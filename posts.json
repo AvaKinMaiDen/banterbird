@@ -12,15 +12,15 @@
         "message": "Hi :)"
     },
     {
-        "username": "Mr. Speak",
-        "message": "Welcome to Banterbird Team 10!"
-    },
-    {
         "username": "Student 1",
         "message": "Excited to be here!"
     },
     {
         "username": "Student 2",
         "message": "Just joined. Lets banter!"
+    },
+    {
+        "username": "Mr. Speak",
+        "message": "Welcome to Banterbird Team 10!"
     }
 ]

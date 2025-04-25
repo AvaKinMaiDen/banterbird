@@ -1,0 +1,30 @@
+/* style.css */
+
+body {
+    font-family: "Limelight", sans-serif;
+    background-color: #e4d4f5;
+    padding: 20px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#feed {
+    margin-top: 30px;
+}
+
+#postInput {
+    border-style: dashed;
+    border-color: #000000;
+    border-width: 2px;
+}
+
+#tweet {
+    border-style: dashed;
+    border-color: #000000;
+    border-width: 2px;
+    background-color: #dffee1;
+}
+
+#username {
+    color: #dffee1;
+}
