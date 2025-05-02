@@ -44,3 +44,14 @@ window.onload = async () => {
       console.error("Error fetching posts:", error);
     }
 };
+
+setInterval(async () => {
+  try {
+    document.getElementById("username").innerText = username;
+    const posts = await response.json();
+    document.getElementById("feed").innerHTML = ""; //Clear the feed before rendering
+    posts.forEach((post) => renderPost(post));
+  } catch (error) {
+    console.error("Error fetching posts:", error);
+  }
+}, 5000 ); //Poll every five seconds
